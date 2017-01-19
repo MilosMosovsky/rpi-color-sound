@@ -1,9 +1,8 @@
 var rpio = require('rpio');
 rpio.init({gpiomem: false});
 
+var GREEN_PORT = 14;
 var RED_PORT = 15;
-var GREEN_PORT = 16;
-var GREEN_PORT = 16;
 
 rpio.open(RED_PORT, rpio.OUTPUT, rpio.LOW);
 
