@@ -5,6 +5,7 @@ var GREEN_PORT = 14;
 var RED_PORT = 15;
 
 rpio.open(RED_PORT, rpio.OUTPUT, rpio.LOW);
+rpio.open(GREEN_PORT, rpio.OUTPUT, rpio.LOW);
 
 for (var i = 0; i < 5; i++) {
     /* On for 1 second */
